@@ -1,0 +1,130 @@
+@import url("https://fonts.google.com/specimen/Dela+Gothic+One?preview.text_type=custom");
+
+body{
+    margin: 0;
+}
+
+.encabezado-redes-sociales{
+    background-color:#10505c;
+    height:60px;
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado-redes-sociales i{
+    color:whitesmoke;
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 15px;
+
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(203,255,246);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+    border-radius: 10px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-menu-ul li{
+    margin-right: 20px;
+    
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: rgb(2, 2, 48);
+    font-size: 20px;
+}
+
+
+.yo img{
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.main-section{
+    color: white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+
+.footer{
+    height: 60px;
+    background-color: #10505c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Teko';
+}
+
+
+
+
+.blog-titulo{
+    text-align: center;
+    
+}
+
+.blog-titulo h1{
+    font-family: 'Teko';
+    font-size: 100px;
+
+}
+
+.blog-titulo p{
+        font-size: 20px;
+        width: 800px;
+        
+        
+    }
+
+.blog-cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-contenido{
+    width: 30%;
+}
+
+.blog-contenido p{
+    text-align: justify;
+}
+
+.blog-imagen{
+    width: 30%;
+}
+
+.blog-imagen img{
+    width: 100%;
+}
+  
+
+  
